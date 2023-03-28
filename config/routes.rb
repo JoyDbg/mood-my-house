@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root to: "inspirations#index"
-  resources :moodboardss, only: [:index, :new, :create, :edit, :update] do
+  resources :moodboards, only: [:index, :new, :create, :edit, :update] do
     resources :bookmarks, only: [:new, :create]
   end
   resources :moodboards, only: [:destroy], as: :destroy_moodboard
