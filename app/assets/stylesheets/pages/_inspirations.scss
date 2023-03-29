@@ -8,7 +8,7 @@
   .left-pics{
     width: 50%;
     height: 33vh;
-    background-color: black;
+    background-color: lightgray;
   }
 
   .right-pics {
@@ -18,7 +18,7 @@
     grid-template-columns: 1fr;
     row-gap: 2vw;
     .right-pics-squares {
-      background-color:black ;
+      background-color:lightgray ;
     }
   }
 }
@@ -37,13 +37,17 @@
     grid-template-columns: 1fr;
     row-gap: 2vw;
     .left-pics-squares {
-      background-color:black ;
+      background-color:lightgray ;
     }
   }
   .right-pics {
     width: 75%;
     margin-left: 1vw;
-    background-color: black;
+    background-color: lightgray;
   }
 
+}
+
+.wrapper {
+  background-color: white;
 }
